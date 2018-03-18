@@ -21,6 +21,6 @@ Build
 
     source build/envsetup.sh
 
-    lunch aosp_nanopi2-userdebug
+    lunch aosp_nanopi2-user
 
     make -j8
