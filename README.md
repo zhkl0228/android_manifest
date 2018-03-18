@@ -9,7 +9,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the FriendlyARM android trees, use a command like this:
 
-    repo init -u https://github.com/zhkl0228/android_manifest.git -b nanopi2-lollipop-mr1
+    repo init -u https://github.com/zhkl0228/friendlyarm_android.git -b nanopi2-lollipop-mr1
 
 Then to sync up:
 
