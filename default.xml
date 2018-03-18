@@ -15,7 +15,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="zhkl0228/android_platform_build" remote="github" revision="refs/heads/s5p4418-lollipop-mr1" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -47,8 +47,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/friendly-arm/nanopi2" name="android_device_friendly-arm_nanopi2" remote="origin" revision="refs/heads/nanopi2-lollipop-mr1" groups="device,nanopi2" />
-  <project path="device/friendly-arm/nanopi3" name="android_device_friendly-arm_nanopi3" remote="origin" revision="refs/heads/nanopi3-lollipop-mr1" groups="device,nanopi3" />
+  <project path="device/friendly-arm/nanopi2" name="zhkl0228/android_device_friendly-arm_nanopi2" remote="github" revision="refs/heads/nanopi2-lollipop-mr1" groups="device,nanopi2" />
+  <project path="device/friendly-arm/nanopi3" name="zhkl0228/android_device_friendly-arm_nanopi3" remote="github" revision="refs/heads/nanopi3-lollipop-mr1" groups="device,nanopi3" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -483,8 +483,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="android_system_core" remote="origin" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <project path="system/core" name="zhkl0228/android_system_core" remote="github" revision="refs/heads/s5p4418-lollipop-mr1" groups="pdk" />
+  <project path="system/extras" name="zhkl0228/android_system_extras" remote="github" revision="refs/heads/s5p4418-lollipop-mr1" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
