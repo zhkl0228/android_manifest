@@ -511,5 +511,7 @@
   <project path="vendor/nexell/s5p4418" name="nexell_platform_s5p4418" remote="origin" revision="refs/heads/nanopi2-lollipop-mr1" />
   <project path="vendor/nexell/s5p6818" name="nexell_platform_s5p6818" remote="origin" revision="refs/heads/nanopi3-lollipop-mr1" />
   <project path="vendor/nexell/apps" name="android_vendor_nexell_apps" remote="origin" />
+  <project path="external/koush/Superuser" name="zhkl0228/Superuser" remote="github" revision="master" />
+  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
 
 </manifest>
