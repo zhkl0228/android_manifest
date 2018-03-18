@@ -445,5 +445,7 @@
   <project path="vendor/friendly-arm/build" name="android_vendor_friendly-arm_build" remote="origin" revision="refs/heads/nanopi2-kitkat" />
   <project path="vendor/friendly-arm/nanopi2" name="android_vendor_friendly-arm_nanopi2" remote="origin" revision="refs/heads/nanopi2-kitkat" />
   <project path="vendor/nexell/s5p4418" name="nexell_platform_s5p4418" remote="origin" />
+  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
 
 </manifest>
