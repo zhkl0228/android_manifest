@@ -2,7 +2,10 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
+           fetch="https://aosp.tuna.tsinghua.edu.cn" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
 
   <remote  name="origin"
            fetch="."
