@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com" />
 
   <remote  name="origin"
-           fetch="."
+           fetch="https://github.com/friendlyarm"
            revision="refs/heads/s5p4418-lollipop-mr1" />
 
   <default revision="refs/tags/android-5.1.1_r6"
