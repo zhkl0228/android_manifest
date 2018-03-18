@@ -8,7 +8,7 @@
            fetch="https://github.com" />
 
   <remote  name="origin"
-           fetch="."
+           fetch="https://github.com/friendlyarm"
            revision="refs/heads/s5p4418-kitkat" />
 
   <default revision="refs/tags/android-4.4.2_r1"
