@@ -433,7 +433,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/broadcom/nanopi2" name="android_vendor_broadcom_nanopi2" remote="origin" revision="refs/heads/nanopi2-kitkat" />
   <project path="vendor/friendly-arm/build" name="android_vendor_friendly-arm_build" remote="origin" revision="refs/heads/nanopi2-kitkat" />
-  <project path="vendor/friendly-arm/nanopi2" name="android_vendor_friendly-arm_nanopi2" remote="origin" revision="refs/heads/nanopi2-kitkat" />
+  <project path="vendor/friendly-arm/nanopi2" name="zhkl0228/android_vendor_friendly-arm_nanopi2" remote="github" revision="refs/heads/nanopi2-kitkat" />
   <project path="vendor/nexell/s5p4418" name="nexell_platform_s5p4418" remote="origin" />
   <project path="external/koush/Superuser" name="zhkl0228/Superuser" remote="github" revision="master" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
